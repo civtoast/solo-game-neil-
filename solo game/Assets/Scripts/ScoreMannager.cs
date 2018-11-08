@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ScoreMannager : MonoBehaviour {
+   
 
     public static ScoreMannager instance;
-    public int score;
+    private int timehit;
+    public Text score;
     void Start () {
         
 
@@ -25,7 +28,9 @@ public class ScoreMannager : MonoBehaviour {
 	}
     public void Points()
     {
-
+        print("Hit");
+        timehit += 10;
+        score.text = timehit.ToString();
     }
 
    

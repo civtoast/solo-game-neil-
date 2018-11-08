@@ -6,6 +6,7 @@ public class EnemyMove : MonoBehaviour
 {
     //public Animator anim;
     public int score;
+    public ScoreMannager points;
     void Start()
     {
         InvokeRepeating("Rotate", 10, Random.Range(10, 30));
@@ -25,7 +26,8 @@ public class EnemyMove : MonoBehaviour
         {
             //play hit animation
             score += 10;
-            print("Hit");
+            points.Points();
+            
         }
     }
 }
