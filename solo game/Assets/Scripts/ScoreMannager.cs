@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HealthMannager : MonoBehaviour {
+public class ScoreMannager : MonoBehaviour {
 
-    public static HealthMannager instance;
-    
+    public static ScoreMannager instance;
+    public int score;
     void Start () {
         
 
@@ -23,5 +23,10 @@ public class HealthMannager : MonoBehaviour {
 	void Update () {
 		
 	}
+    public void Points()
+    {
+
+    }
+
    
 }

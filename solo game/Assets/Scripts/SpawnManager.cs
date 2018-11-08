@@ -10,25 +10,27 @@ public class SpawnManager : MonoBehaviour {
     private int num2 = 0;
     // Use this for initialization
     void Start () {
+        InvokeRepeating("Choose", 10, Random.Range(10, 15));
 		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        InvokeRepeating("Choose", 10, 15);
 	}
     void Choose()
     {
-        rand= Random.Range(1, 3);
-        if (rand<=2)
+       rand= Random.Range(1, 4);
+      
+        if (rand <= 2)
         {
         Spawn1();
+            ;
 
         }
-       else if (rand > 2)
+       if (rand > 2)
         {
             Spawn2();
-
+            
         }
     }
     void Spawn1()

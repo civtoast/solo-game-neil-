@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyMove : MonoBehaviour
 {
     //public Animator anim;
-    private int health;
+    public int score;
     void Start()
     {
         InvokeRepeating("Rotate", 10, Random.Range(10, 30));
@@ -24,7 +24,7 @@ public class EnemyMove : MonoBehaviour
         if (other.CompareTag("Bullet"))
         {
             //play hit animation
-            health -= 10;
+            score += 10;
             print("Hit");
         }
     }
