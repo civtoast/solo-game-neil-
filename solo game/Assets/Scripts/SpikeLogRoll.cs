@@ -4,12 +4,9 @@ using UnityEngine;
 
 public class SpikeLogRoll : MonoBehaviour {
     public float rollspeed = -0.5f;
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
+	/// <summary>
+    /// this script rotates the spike log
+    /// </summary>
 	void Update () {
 
 

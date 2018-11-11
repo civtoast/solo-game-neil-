@@ -1,23 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Killzone : MonoBehaviour {
 
     
-	void Start () {
-        
-	}
-	
-	
-	void Update () {
-		
-	}
+/// <summary>
+/// this script opens the Gameover menu and kills the player
+/// </summary>
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            print("Dead");
+            
+            SceneManager.LoadScene("Gameover");
         }
     }
    

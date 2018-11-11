@@ -5,7 +5,10 @@ using UnityEngine;
 public class LazerRotate : MonoBehaviour
 {
     public float movespeed = 0.5f;
-    // Use this for initialization
+
+    /// <summary>
+    /// this scrip makes the Lazer rotate in a random direction
+    /// </summary>
     void Start()
     {
         movespeed *= Mathf.Sign(Random.Range(-1f, 1f));

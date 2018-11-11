@@ -6,7 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class UiSceneManager : MonoBehaviour
 {
-
+    /// <summary>
+    /// this switches scenes when you press a button
+    /// </summary>
     public Button buttonToChangeUiScene;
 
     public string sceneName;

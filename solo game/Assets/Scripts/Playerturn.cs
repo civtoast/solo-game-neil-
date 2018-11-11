@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class Playerturn : MonoBehaviour {
     public float rotationSpeed; 
-    // Use this for initialization
-    void Start () {
-		
-	}
+    /// <summary>
+    /// this script gets the left and right inputs and moves the player around the squid
+    /// </summary>
 	
 	// Update is called once per frame
 	void Update () {

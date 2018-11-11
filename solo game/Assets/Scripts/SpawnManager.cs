@@ -8,15 +8,17 @@ public class SpawnManager : MonoBehaviour {
     private int rand;
     private int num1 = 0;
     private int num2 = 0;
-    // Use this for initialization
+   /// <summary>
+   /// this script randomly spawns extra obsticals
+   /// </summary>
     void Start () {
         InvokeRepeating("Choose", 10, Random.Range(10, 15));
 		
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	}
+	/// <summary>
+    /// this randomly  chooses a object to spawn
+    /// </summary>
     void Choose()
     {
        rand= Random.Range(1, 4);
@@ -24,7 +26,7 @@ public class SpawnManager : MonoBehaviour {
         if (rand <= 2)
         {
         Spawn1();
-            ;
+            
 
         }
        if (rand > 2)
@@ -33,6 +35,9 @@ public class SpawnManager : MonoBehaviour {
             
         }
     }
+    /// <summary>
+    /// this part spawns obstical 1 if chosen
+    /// </summary>
     void Spawn1()
     {
         if (num1<3)
@@ -42,6 +47,9 @@ public class SpawnManager : MonoBehaviour {
         }
         
     }
+    /// <summary>
+    /// this part spawns obstical 2 if chosen
+    /// </summary>
     void Spawn2()
     {
         if (num2 < 2)

@@ -4,22 +4,29 @@ using UnityEngine;
 
 public class Bulletdestroy : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+	/// <summary>
+    /// this script destroys the bullet when it exits a trigger
+    /// </summary>
+    
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
     private void OnTriggerExit(Collider other)
     {
 
         if (other.CompareTag("Bullet"))
         {
-
+            
             Destroy(other.gameObject);
         }
     }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Bullet"))
+        {
+
+            Destroy(collision.gameObject);
+        }
+    }
+
+
 }

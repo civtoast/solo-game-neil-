@@ -7,13 +7,19 @@ public class Player : MonoBehaviour {
     public float thrust;
     public GameObject bulet;
     public GameObject spawnpoint;
+    /// <summary>
+    /// these varables get the thruster particals
+    /// </summary>
     [Space]
     [Header("partical system")]
     public GameObject down1;
     public GameObject down2;
     public GameObject right;
     public GameObject left;
-    //public Animator anim;
+    
+    /// <summary>
+    /// this sets all the  particals to be inactive when you dont press anything
+    /// </summary>
     void Start () {
         rb = GetComponent<Rigidbody>();       
         down1.SetActive(false);
@@ -25,6 +31,9 @@ public class Player : MonoBehaviour {
 
 
     void Update () {
+        /// <summary>
+        /// this gets up input to move the player up and play the up  thruster particals 
+        /// </summary>
         if (Input.GetButton("Vertical"))
         {
             rb.AddForce(transform.up * thrust);
@@ -33,12 +42,18 @@ public class Player : MonoBehaviour {
             down2.SetActive(true);
 
         }
+        /// <summary>
+        /// this disables the particals 
+        /// </summary>
         if (Input.GetButtonUp("Vertical"))
         {
 
             down1.SetActive(false);
             down2.SetActive(false);
         }
+        /// <summary>
+        /// these eable left and right boosters
+        /// </summary>
         if (Input.GetKey(KeyCode.A))
         {
             right.SetActive(true);
@@ -47,7 +62,9 @@ public class Player : MonoBehaviour {
         {
             left.SetActive(true);
         }
-
+        /// <summary>
+        /// tese diable left and right boosters
+        /// </summary>
         if (Input.GetKeyUp(KeyCode.A))
         {
             right.SetActive(false);
@@ -56,9 +73,12 @@ public class Player : MonoBehaviour {
         {
             left.SetActive(false);
         }
+        /// <summary>
+        /// this spawns the bulet prefab
+        /// </summary>
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            //Playanimation
+           
             Instantiate(bulet, spawnpoint.transform.position, spawnpoint.transform.rotation);
 
         }
@@ -67,6 +87,6 @@ public class Player : MonoBehaviour {
 
     public void Shoot()
     {
-        Instantiate(bulet,spawnpoint.transform.position,spawnpoint.transform.rotation);
+        Instantiate(bulet,spawnpoint.transform.position, Quaternion.identity);
     }
 }

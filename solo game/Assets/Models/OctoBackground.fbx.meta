@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: c3cfee2a0548b644aacba582f6bb5617
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Armature.001
+    100004: Bone
+    100006: Bone 1
+    100008: Bone.001
+    100010: Bone.001 1
+    100012: Bone.002
+    100014: Bone.002 1
+    100016: Bone.003
+    100018: Bone.003 1
+    100020: Bone.004
+    100022: Bone.004 1
+    100024: Bone.005
+    100026: Bone.005 1
+    100028: Bone.006
+    100030: Bone.006 1
+    100032: Bone.007
+    100034: Bone.007 1
+    100036: Bone.007_end
+    100038: Bone.007_end 1
+    100040: Camera
+    100042: Cube
+    100044: Cube.001
+    100046: Cube.002
+    100048: Cube.003
+    100050: //RootNode
+    100052: Plane
+    100054: Sphere
+    100056: Sun
+    400000: Armature
+    400002: Armature.001
+    400004: Bone
+    400006: Bone 1
+    400008: Bone.001
+    400010: Bone.001 1
+    400012: Bone.002
+    400014: Bone.002 1
+    400016: Bone.003
+    400018: Bone.003 1
+    400020: Bone.004
+    400022: Bone.004 1
+    400024: Bone.005
+    400026: Bone.005 1
+    400028: Bone.006
+    400030: Bone.006 1
+    400032: Bone.007
+    400034: Bone.007 1
+    400036: Bone.007_end
+    400038: Bone.007_end 1
+    400040: Camera
+    400042: Cube
+    400044: Cube.001
+    400046: Cube.002
+    400048: Cube.003
+    400050: //RootNode
+    400052: Plane
+    400054: Sphere
+    400056: Sun
+    2000000: Camera
+    2100000: Wooden Barrel
+    2100002: Water
+    2100004: Material.003
+    2100006: Material
+    2100008: No Name
+    2100010: Material.001
+    2100012: Material.002
+    2300000: Cube.001
+    2300002: Cube.003
+    2300004: Plane
+    2300006: Sphere
+    2300008: Cube
+    2300010: Cube.002
+    3300000: Cube.001
+    3300002: Cube.003
+    3300004: Plane
+    3300006: Sphere
+    3300008: Cube
+    3300010: Cube.002
+    4300000: Cube.003
+    4300002: Cube.002
+    4300004: Cube
+    4300006: Cube.001
+    4300008: Plane
+    4300010: Sphere
+    7400000: Sphere|SphereAction
+    9500000: //RootNode
+    10800000: Sun
+    13700000: Cube
+    13700002: Cube.002
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
