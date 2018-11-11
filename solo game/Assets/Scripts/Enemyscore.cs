@@ -8,7 +8,7 @@ public class Enemyscore : MonoBehaviour {
     /// </summary>
     public ScoreMannager points;
     private int score;
-  
+    public Animator anim;
 
    
     
@@ -20,10 +20,10 @@ public class Enemyscore : MonoBehaviour {
 
         if (other.CompareTag("Bullet"))
         {
-            
+           
             score += 10;
             points.Points();
-            print("score");
+            
         }
     }
 }
