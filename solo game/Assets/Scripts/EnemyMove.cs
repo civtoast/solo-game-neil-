@@ -15,7 +15,7 @@ public class EnemyMove : MonoBehaviour
     private void Sound()
     {
         audioData.Play(0);
-        InvokeRepeating("Rotate", 2,2);
+        Invoke("Rotate",2);
     }
 
     private void Rotate()

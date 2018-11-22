@@ -7,6 +7,7 @@ public class Enemyscore : MonoBehaviour {
     /// these varables get the score Manager and keeps track of score
     /// </summary>
     public ScoreMannager points;
+    public Healthmanager1 damage;
     private int score;
     public Animator anim;
 
@@ -22,7 +23,15 @@ public class Enemyscore : MonoBehaviour {
         {
            
             score += 10;
+            if (points!=null)
+            {
             points.Points();
+
+            }
+            if (damage!= null)
+            {
+                damage.Points();
+            }
             
         }
     }

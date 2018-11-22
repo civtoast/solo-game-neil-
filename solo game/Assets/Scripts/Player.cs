@@ -1,12 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour {
     public Rigidbody rb;
     public float thrust;
     public GameObject bulet;
     public GameObject spawnpoint;
+    public Image[] hearts;
+    public int times = 0;
+    bool wait = false;
     /// <summary>
     /// these varables get the thruster particals
     /// </summary>
@@ -88,5 +93,31 @@ public class Player : MonoBehaviour {
     public void Shoot()
     {
         Instantiate(bulet,spawnpoint.transform.position, Quaternion.identity);
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Killzone"))
+        {
+            if (times<3 && wait==false)
+            {
+            hearts[times].enabled = false;
+            times += 1;
+                Timetowait();
+            }
+            if (times >= 3)
+            {
+                SceneManager.LoadScene("Gameover");
+
+            }
+        }
+    }
+    public void Timetowait()
+    {
+        wait = true;
+        Invoke("stopwait", 1);
+    }
+    public void stopwait()
+    {
+        wait = false;
     }
 }

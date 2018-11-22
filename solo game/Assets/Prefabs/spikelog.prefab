@@ -21,11 +21,9 @@ GameObject:
   - component: {fileID: 4048913586386892}
   - component: {fileID: 114808729348676460}
   - component: {fileID: 136432785109641478}
-  - component: {fileID: 114976991702034960}
-  - component: {fileID: 114349050640027912}
   m_Layer: 0
   m_Name: spikelog
-  m_TagString: SpikeLog
+  m_TagString: Killzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133,17 +131,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &114349050640027912
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1053128401187112}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 311e56ce9dc34dc46903d3142329eab4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114808729348676460
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -156,17 +143,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rollspeed: 0.5
---- !u!114 &114976991702034960
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1053128401187112}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 311e56ce9dc34dc46903d3142329eab4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!136 &136432785109641478
 CapsuleCollider:
   m_ObjectHideFlags: 1

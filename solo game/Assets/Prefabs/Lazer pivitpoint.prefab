@@ -22,10 +22,9 @@ GameObject:
   - component: {fileID: 33024334477589428}
   - component: {fileID: 23232659992814138}
   - component: {fileID: 136390650115269428}
-  - component: {fileID: 114656389520578680}
   m_Layer: 0
   m_Name: pilar (6)
-  m_TagString: Untagged
+  m_TagString: Killzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58,10 +57,9 @@ GameObject:
   - component: {fileID: 33331149164237494}
   - component: {fileID: 23643699001855842}
   - component: {fileID: 136568095818495166}
-  - component: {fileID: 114828142429068862}
   m_Layer: 0
   m_Name: pilar (8)
-  m_TagString: Untagged
+  m_TagString: Killzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77,10 +75,9 @@ GameObject:
   - component: {fileID: 33957132432165830}
   - component: {fileID: 23308354427416026}
   - component: {fileID: 136647437297315716}
-  - component: {fileID: 114198337162783380}
   m_Layer: 0
   m_Name: pilar (2)
-  m_TagString: Untagged
+  m_TagString: Killzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114,10 +111,9 @@ GameObject:
   - component: {fileID: 33383029798011960}
   - component: {fileID: 23338261764405870}
   - component: {fileID: 136039935688457866}
-  - component: {fileID: 114968247665640410}
   m_Layer: 0
   m_Name: pilar (5)
-  m_TagString: Untagged
+  m_TagString: Killzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133,10 +129,9 @@ GameObject:
   - component: {fileID: 33070927094647750}
   - component: {fileID: 23201771075604820}
   - component: {fileID: 136569753676701338}
-  - component: {fileID: 114432742185096678}
   m_Layer: 0
   m_Name: pilar (4)
-  m_TagString: Untagged
+  m_TagString: Killzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -152,10 +147,9 @@ GameObject:
   - component: {fileID: 33626004352196374}
   - component: {fileID: 23293731059190730}
   - component: {fileID: 136989564572387750}
-  - component: {fileID: 114991191460609702}
   m_Layer: 0
   m_Name: pilar (3)
-  m_TagString: Untagged
+  m_TagString: Killzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -220,10 +214,9 @@ GameObject:
   - component: {fileID: 33139237696515540}
   - component: {fileID: 23601258821065274}
   - component: {fileID: 136321451798216158}
-  - component: {fileID: 114744156727240586}
   m_Layer: 0
   m_Name: pilar (2)
-  m_TagString: Untagged
+  m_TagString: Killzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -239,10 +232,9 @@ GameObject:
   - component: {fileID: 33522348528756316}
   - component: {fileID: 23052196842320174}
   - component: {fileID: 136483043696771414}
-  - component: {fileID: 114435578927155760}
   m_Layer: 0
   m_Name: pilar (7)
-  m_TagString: Untagged
+  m_TagString: Killzone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -279,7 +271,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1151307255524128}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -884,95 +876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d870930a0d37884585acd47f7455e09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movespeed: -0.5
---- !u!114 &114198337162783380
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1283078158593538}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 311e56ce9dc34dc46903d3142329eab4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114432742185096678
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1424998537443324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 311e56ce9dc34dc46903d3142329eab4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114435578927155760
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1930714847539630}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 311e56ce9dc34dc46903d3142329eab4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114656389520578680
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1103054586653044}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 311e56ce9dc34dc46903d3142329eab4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114744156727240586
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1870523396474378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 311e56ce9dc34dc46903d3142329eab4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114828142429068862
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1217883010104648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 311e56ce9dc34dc46903d3142329eab4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114968247665640410
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1295227259975484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 311e56ce9dc34dc46903d3142329eab4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114991191460609702
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1602602458383242}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 311e56ce9dc34dc46903d3142329eab4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  movespeed: 0.5
 --- !u!136 &136039935688457866
 CapsuleCollider:
   m_ObjectHideFlags: 1

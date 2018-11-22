@@ -6,6 +6,7 @@ TagManager:
   tags:
   - SpikeLog
   - Bullet
+  - Killzone
   layers:
   - Default
   - TransparentFX
