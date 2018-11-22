@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Killzone : MonoBehaviour {
-
+    int hit = 0 ;
     
 /// <summary>
 /// this script opens the Gameover menu and kills the player
@@ -14,8 +14,15 @@ public class Killzone : MonoBehaviour {
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            
+            if (hit<3)
+            {
+                //fadecharacter
+            }
+            else if (hit>3)
+            {
             SceneManager.LoadScene("Gameover");
+
+            }
         }
     }
    
