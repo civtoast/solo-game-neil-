@@ -19,7 +19,7 @@ public class MainMenu : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             SceneManager.LoadScene("MainMenu");
-            print("switch");
+            
         }
     }
 }

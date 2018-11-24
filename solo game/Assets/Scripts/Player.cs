@@ -12,6 +12,9 @@ public class Player : MonoBehaviour {
     public Image[] hearts;
     public int times = 0;
     bool wait = false;
+    public int level;
+    Scene currentScene;
+    string sceneName;
     /// <summary>
     /// these varables get the thruster particals
     /// </summary>
@@ -31,7 +34,8 @@ public class Player : MonoBehaviour {
         down2.SetActive(false);
         right.SetActive(false);
         left.SetActive(false);
-
+         currentScene = SceneManager.GetActiveScene();
+         sceneName = currentScene.name;
     }
 
 
@@ -106,7 +110,17 @@ public class Player : MonoBehaviour {
             }
             if (times >= 3)
             {
-                SceneManager.LoadScene("Gameover");
+                if (sceneName == "Level2")
+                {
+                    SceneManager.LoadScene("Gameover 1");
+
+                }
+                else
+                {
+                    SceneManager.LoadScene("Gameover");
+                }
+
+                
 
             }
         }

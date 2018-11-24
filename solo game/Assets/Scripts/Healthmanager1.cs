@@ -24,7 +24,11 @@ public class Healthmanager1 : MonoBehaviour {
 
     public void Update()
     {
+        if (healthpoints==0)
+        {
         SceneManager.LoadScene("Victory");
+
+        }
     }
     public void Points()
     {
